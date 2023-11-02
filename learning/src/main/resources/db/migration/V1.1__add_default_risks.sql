@@ -1,0 +1,2 @@
+insert into owasp_risk (id, name, year) values (uuid(), 'Broken access control', 2021);
+insert into owasp_risk(id, name, year, description) values (uuid(), 'Chriptographic failures', 2021, 'when you have bad practices to create your chriptographic keys or u use outdated hash functions or algorithms ')
